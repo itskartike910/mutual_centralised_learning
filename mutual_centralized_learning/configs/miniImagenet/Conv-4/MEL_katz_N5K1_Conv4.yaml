@@ -1,3 +1,0 @@
-model:
-    encoder: "FourLayer_64F_4x"
-    query: "MEL"
