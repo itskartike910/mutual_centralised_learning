@@ -1,22 +1,5 @@
 # Mutual Centralized Learning
 
-This repository contains the public release of the Python implementation of
-
-**Learning to Affiliate: Mutual Centralized Learning for Few-shot Classification (CVPR 2022)**
-
-If you use this code or find this work useful for your research, please cite:
-
-```
-@InProceedings{Liu_2022_CVPR,
-    author    = {Liu, Yang and Zhang, Weifeng and Xiang, Chao and Zheng, Tu and Cai, Deng and He, Xiaofei},
-    title     = {Learning To Affiliate: Mutual Centralized Learning for Few-Shot Classification},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {14411-14420}
-}
-```
-
 ## Overview
 
 <img src='README_imgs/overview.gif' width='800'>
@@ -137,5 +120,5 @@ It is easy to implement your own method in our unified framework by adding the s
 
 We have tried our best to upload the correct snapshots on the google drive. However, since the config structures had been changed a lot in development (e.g., we introduce train/val/test n\_way k\_shot options instead of a single n_way k_shot in case some methods using the larger shot training), some of the `.yaml` configs in uploaded snapshots may have conflicts during loading.
 
-If you encounter any issues or have questions about using the code, feel free to contact me [lyng\_95@zju.edu.cn](lyng\_95@zju.edu.cn)
+
 
